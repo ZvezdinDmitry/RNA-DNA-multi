@@ -2,7 +2,8 @@ import argparse
 from pathlib import Path
 
 import pandas as pd
-from multiK2.voting_eff import bin_multi_dna, bin_multi_rna, voting
+
+from multimapping.voting_eff import bin_multi_dna, bin_multi_rna, voting
 
 parser = argparse.ArgumentParser(
     description="RNA parts voting & binnning of multi RNA and DNA parts"

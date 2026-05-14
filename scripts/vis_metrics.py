@@ -4,8 +4,11 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from multiK2.metrics import get_metrics, visualize_metrics
-from multiK2.selection import calculate_top1_confidence, sample_with_weights
+from multimapping.metrics import get_metrics, visualize_metrics
+from multimapping.selection import (
+    calculate_top1_confidence,
+    sample_with_weights,
+)
 
 parser = argparse.ArgumentParser(
     description="Calculate prior probailities for scaling and coverage."

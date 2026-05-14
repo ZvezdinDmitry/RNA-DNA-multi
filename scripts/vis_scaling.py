@@ -5,7 +5,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from multiK2.selection import calculate_top1_confidence, sample_with_weights
+from multimapping.selection import (
+    calculate_top1_confidence,
+    sample_with_weights,
+)
 
 parser = argparse.ArgumentParser(
     description="Calculate prior probailities for scaling and coverage."

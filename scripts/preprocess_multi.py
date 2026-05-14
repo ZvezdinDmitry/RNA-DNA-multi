@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from multiK2.preprocess_utils import convert_to_long, process_multi
+from multimapping.preprocess_utils import convert_to_long, process_multi
 
 parser = argparse.ArgumentParser(
     description="Preprocess nf-rnachrom output. Separate UU, UM and MU"

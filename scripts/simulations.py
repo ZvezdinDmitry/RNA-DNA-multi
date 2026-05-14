@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from multiK2.simulataions_positions import simulate_multi_positions
+from multimapping.simulataions_positions import simulate_multi_positions
 
 parser = argparse.ArgumentParser(
     description="Simulate multimappers based on real data statistics."

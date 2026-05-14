@@ -7,7 +7,7 @@ import pandas as pd
 from sklearn.metrics import f1_score, precision_score, recall_score
 from tqdm import tqdm
 
-from multiK2.selection import calculate_top1_confidence
+from multimapping.selection import calculate_top1_confidence
 
 parser = argparse.ArgumentParser(description="Plot metrics vs confidence.")
 

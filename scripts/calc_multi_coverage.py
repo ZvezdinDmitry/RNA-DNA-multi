@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from multiK2.simulataions_positions import get_multi_coverage_positions
+from multimapping.simulataions_positions import get_multi_coverage_positions
 
 parser = argparse.ArgumentParser(
     description="Calculate multimappers stats for simulations."

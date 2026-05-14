@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from multiK2.prior import (
+from multimapping.prior import (
     calculate_cov_prior,
     calculate_scaling_prior,
     calculate_trans_prior,
